@@ -1,99 +1,71 @@
-```
+```gitignore
 # Dependencies
 node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-env/
-ENV/
 .venv/
-env.bak/
-venv.bak/
-
-# Build artifacts
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 dist/
 build/
-*.egg-info/
-.eggs/
-pip-log.txt
-pip-delete-this-directory.txt
 target/
+.gradle/
 
-# Logs
+# Logs and temp files
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+*.tmp
+*.swp
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-
-# Environment variables
+# Environment
 .env
 .env.local
-.env.dev
-.env.test
-.env.prod
-.env.*
+*.env.*
 
-# IDE specific
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# Python specific
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+# OS
+.DS_Store
+Thumbs.db
 
-# Node.js specific
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
-jspm_packages/
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Coverage reports
+# Coverage
 coverage/
-.htmlcov/
+htmlcov/
 .coverage
-.coverage.*
-. coverage.xml
-coverage-final.json
 
-# Next.js
-.next/
-out/
-
-# TypeScript
-*.tsbuildinfo
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 ```
